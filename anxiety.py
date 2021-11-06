@@ -6,7 +6,6 @@ def app():
     "\n"
     st.write("Below is a list of few questions designed to help you determine if you might be experiencing depression,anxiety. The questions relate to life experiences common among people who have such mental health problems. Please read each question carefully, and indicate how often you have experienced the same or similar challenges in the past few weeks.")
     # anx = st.button("Test 1")
-    st.success("anxiety")
     "\n"
     st.subheader("How Accurate Is It?")
     st.write("This quiz is NOT a diagnostic tool. Mental health disorders can only be diagnosed by a licensed mental health provider or doctor.")

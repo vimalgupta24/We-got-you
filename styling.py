@@ -15,46 +15,26 @@ def link(link, text, **style):
 def layout(*args):
 
     style = """ <style>   </style> """
-
-    style_div = styles(
-        position="0",
-        left=0,
-        bottom=0,
-        margin=px(0, 0, 0, 0),
-        width=percent(100),
-        color="black",
-        text_align="center",
-        height="auto",
-        opacity=1
-    )
-
-    style_hr = styles(
-        border_style="inset",
-        border_width=px(2),
-    )
-
+    styled = styles(
+        # left="100",
+        # top="0",
+        margin="0",
+        # padding_left="100"
+        
+        )
     body = p()
-    foot = div(
-        style=style_div
-    )(
-        hr(
-            style=style_hr
-        ),
-        body
+    foot=(
+        div(
+            style=styled
+        )(body)
     )
 
     for arg in args:
         body(arg)
 
     st.markdown(str(foot), unsafe_allow_html=True)
-
-
 def footer():
     myargs = [
-        "Made in Streamlit with ❤️ by ",
-        link("https://twitter.com/dcrazy1_", "@vimal gupta"),
-        br(),
-        br(),
         link("https://buymeacoffee.com/wegotyou",
              image('https://i.imgur.com/thJhzOO.png')),
     ]

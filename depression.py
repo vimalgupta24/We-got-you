@@ -1,12 +1,11 @@
 import streamlit as st
-
+from styling import footer
 def app():
     st.markdown("# Hope You Score Less Than You Expect,Good Luck!")
     st.header("------------------")
     "\n"
     st.write("Below is a list of few questions designed to help you determine if you might be experiencing depression,anxiety. The questions relate to life experiences common among people who have such mental health problems. Please read each question carefully, and indicate how often you have experienced the same or similar challenges in the past few weeks.")
     # depr = st.button("Test2")
-    st.success("depressed")
     "\n"
     st.subheader("How Accurate Is It?")
     st.write("This quiz is NOT a diagnostic tool. Mental health disorders can only be diagnosed by a licensed mental health provider or doctor.")
@@ -29,3 +28,5 @@ def app():
     "\n"
     st.subheader("When To Get Help!!")
     st.write("If you feel depressed, make an appointment to see your doctor or mental health professional as soon as you can. If you're reluctant to seek treatment, talk to a friend or loved one, any health care professional, a faith leader, or someone else you trust. \n If you think you may hurt yourself or attempt suicide, call 911 or your local emergency number immediately.\n If you have a loved one who is in danger of suicide or has made a suicide attempt, make sure someone stays with that person.  ")
+
+    footer()
