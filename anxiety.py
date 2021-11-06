@@ -1,9 +1,9 @@
 import streamlit as st
 
-def anxiety():
+def app():
     
     st.write("Below is a list of few questions designed to help you determine if you might be experiencing depression,anxiety. The questions relate to life experiences common among people who have such mental health problems. Please read each question carefully, and indicate how often you have experienced the same or similar challenges in the past few weeks.")
-    anx = st.button("Click When You Are Ready To Begin the Test For Anxiety!!")
+    # anx = st.button("Test 1")
     st.success("anxiety")
     "\n"
     st.subheader("How Accurate Is It?")
@@ -48,4 +48,4 @@ def anxiety():
     st.write("&#11089;You have suicidal thoughts or behaviors — if this is the case, seek emergency treatment immediately")
     st.write("&#11089;Your worries may not go away on their own, and they may get worse over time if you don't seek help. See your doctor or a mental health provider before your anxiety gets worse. It's easier to treat if you get help early. ")
 
-anxiety()
+# anxiety()

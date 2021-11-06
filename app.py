@@ -1,12 +1,12 @@
 import streamlit as st
-from depression import *
-from anxiety import *
+import depression
+import anxiety
 from sidebar import MultiApp 
-from main import *
+import home
 
 app=MultiApp()
 
-app.add_app("Home Page", mainfunc.app)
+app.add_app("Home", home.app)
 app.add_app("depression", depression.app)
 app.add_app("anxiety", anxiety.app)
 app.run()
