@@ -28,4 +28,4 @@ def app():
     st.write("&#11089; Learning more about mental health allows us to provide helpful support to those affected in our families and communities.")
     "\n"
     footer()
-app()
+# app()
