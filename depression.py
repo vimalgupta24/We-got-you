@@ -4,7 +4,7 @@ from PIL import Image
 def dep():
     st.title("Learn More About Depression")
 
-    st.image(["Images/dep.jpg"],width=700)
+    st.image(["Images/dep.jpg"],use_column_width=100)
     st.write("Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. \n More than just a bout of the blues, depression isn't a weakness and you can't simply SNAP OUT of it. Depression may require long-term treatment. But don't get discouraged. \n Most people with depression feel better with medication, psychotherapy or both.Depression can make you feel alone but you have lots of company. Major depressive disorder (MDD), the clinical term for depression, is one of the most common mental health conditions, affecting an estimated 350 million people in all age groups. You should know that depression isn’t the same as being sad. It’s normal to feel blue or unmotivated from time to time, but depression is more constant.")
     
     st.subheader("Symptoms")

@@ -31,7 +31,7 @@ def quiz():
     opt2='Several Days'
     opt3='More than Half of the Days'
     opt4='Nearly Every Day' 
-    with st.form("quiz",clear_on_submit=False):
+    with st.form("quiz",clear_on_submit=True):
         # questions function
         st.subheader(f"Here It Begins! Good Luck {name}")
         st.image("Images/quiz2.png")
